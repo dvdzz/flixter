@@ -1,1 +1,24 @@
 @import "bootstrap";
+
+body {
+  background: image_url('black_thread.png');
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Yatra One', cursive;
+  font-weight: 100;
+  color: white;
+
+}
+.navbar {
+  background: image_url('qbkls.png');
+  box-shadow: 3px 3px 3px #16ADE1;
+  font-weight: 200;
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Yatra One', cursive;
+  font-weight: 100;
+  color: #E14A16;
+}
