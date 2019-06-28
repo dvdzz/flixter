@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-content-container {
+  flex: 1;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  background: image_url('qbkls.png');
+  color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Yatra One', cursive;
+  font-family: 'Rasa', serif;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+#footer a {
+  color: black;
+  font-weight: 100;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Yatra One', cursive;
+  font-family: 'Rasa', serif;
+}
