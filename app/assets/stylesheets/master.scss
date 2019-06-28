@@ -28,7 +28,7 @@ body {
   color: #E14A16;
 }
 .hero {
-  background: image_url('hero_spiral.jpg') no-repeat center center fixed;
+  background: image_url('hero_cinema4.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,7 +37,7 @@ body {
   box-shadow: 0px 3px 8px #2a2a2a;
 }
 .frosty {
-  background: rgba(22,69,105,0.79)
+  background: rgba(0, 0, 0, 0.5);
 }
 .frosty h1 {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -57,4 +57,9 @@ body {
 }
 .btn {
   border-radius: 0;
+}
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
