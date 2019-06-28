@@ -18,6 +18,7 @@ body {
   background: image_url('qbkls.png');
   box-shadow: 3px 3px 3px #16ADE1;
   font-weight: 200;
+  color: black;
 }
 
 .navbar-inverse a.navbar-brand {
@@ -62,4 +63,20 @@ body {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
+}
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: image_url("black_thread.png");
+  border: 2px solid #ccc;
+  border-color: #E14A16;
+  padding: 10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin: 10px;
+}
+.nav-item {
+  color: black;
 }
