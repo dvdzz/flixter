@@ -1,10 +1,15 @@
 @import "bootstrap";
 
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
 body {
-  background: image_url('black_thread.png');
+  background: image_url('black_thread_@2X.png');
   font-family: 'PT Sans Narrow', sans-serif;
   font-family: 'Roboto Slab', serif;
   font-family: 'Yatra One', cursive;
+  font-family: 'Rasa', serif;
   font-weight: 100;
   color: white;
 
@@ -21,4 +26,35 @@ body {
   font-family: 'Yatra One', cursive;
   font-weight: 100;
   color: #E14A16;
+}
+.hero {
+  background: image_url('hero_spiral.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+.frosty {
+  background: rgba(22,69,105,0.79)
+}
+.frosty h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Yatra One', cursive;
+  font-family: 'Rasa', serif;
+  font-weight: 100;
+  text-shadow: rgba(239,178,143,1) 2px 2px;
+}
+.frosty h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Yatra One', cursive;
+  font-family: 'Rasa', serif;
+  font-weight: 200;
+  text-shadow: rgba(239,178,143,1) 2px 2px;
+}
+.btn {
+  border-radius: 0;
 }
