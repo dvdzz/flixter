@@ -22,15 +22,11 @@ body {
   height: 50px
 }
 
-.nav-link {
-  color: black;
-}
-
 .navbar-inverse a.navbar-brand {
   font-family: 'PT Sans Narrow', sans-serif;
   font-family: 'Roboto Slab', serif;
   font-family: 'Yatra One', cursive;
-  font-weight: 100;
+  font-weight: 300;
   color: #E14A16;
 }
 .hero {
@@ -82,9 +78,14 @@ body {
 .booyah-box h2, .booyah-box h1 {
   margin: 10px;
 }
-.nav-ling {
-  color: black;
-}
+nav .navbar-nav li a{
+  color: black !important;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Yatra One', cursive;
+  font-weight: 100;
+  color: #E14A16;
+} 
 
 .help-block {
   color: #ff3333;
