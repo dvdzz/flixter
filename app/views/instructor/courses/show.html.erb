@@ -17,12 +17,14 @@
         <%= section.title %>
         <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'float-right btn btn-primary btn-sm' %>
         <ul>
+          <% if section.lessons.present? %>
           <% section.lessons.each do |lesson| %>
             <li>
               <b><%= lesson.title %></b>
               -
               <%= lesson.subtitle %>
             </li>
+          <% end %>
           <% end %>
         </ul>
         <br class="clr" />
