@@ -4,6 +4,7 @@ class Instructor::CoursesController < ApplicationController
 
   def new
     @course = Course.new
+    @image = Image.new
   end
 
   def create
@@ -12,6 +13,9 @@ class Instructor::CoursesController < ApplicationController
       redirect_to instructor_course_path(@course)
     else
       render :new, status: :unprocessable_entity
+    end
+
+    @image = current_user.images.create(course_params)
     end
   end
 
@@ -32,6 +36,6 @@ class Instructor::CoursesController < ApplicationController
   end
 
   def course_params
-    params.require(:course).permit(:title, :description, :cost)
+    params.require(:course).permit(:title, :description, :cost, :image)
   end
 end
