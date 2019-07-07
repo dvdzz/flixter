@@ -1,7 +1,7 @@
 class Course < ApplicationRecord
-  mount_uploader :image, ImageUploader 
+  mount_uploader :image, ImageUploader
 
-  belongs_to :user
+  belongs_to :courses
   has_many :sections
   has_many :images
 
