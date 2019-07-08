@@ -14,9 +14,6 @@ class Instructor::CoursesController < ApplicationController
     else
       render :new, status: :unprocessable_entity
     end
-
-    @image = current_user.images.create(course_params)
-    end
   end
 
   def show
