@@ -1,102 +1,142 @@
 @import "bootstrap";
-
-h1, h2, h3, h4, h5, h6, .navbar {
-  margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar {
+    margin: 0;
 }
 
 body {
-  background: image_url('black_thread_@2X.png');
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-family: 'Roboto Slab', serif;
-  font-family: 'Yatra One', cursive;
-  font-family: 'Rasa', serif;
-  font-weight: 100;
-  color: white;
-
+    background: image_url('black_thread_@2X.png');
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Yatra One', cursive;
+    font-family: 'Rasa', serif;
+    font-weight: 100;
+    color: white;
 }
+
 .navbar {
-  background: image_url('qbkls.png');
-  box-shadow: 3px 3px 3px #16ADE1;
-  font-weight: 200;
-  color: black;
-  height: 50px
+    background: image_url('qbkls.png');
+    box-shadow: 3px 3px 3px #16ADE1;
+    font-weight: 200;
+    color: black;
+    height: 50px;
 }
 
 .navbar-inverse a.navbar-brand {
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-family: 'Roboto Slab', serif;
-  font-family: 'Yatra One', cursive;
-  font-weight: 300;
-  color: #E14A16;
-}
-.hero {
-  background: image_url('hero_cinema4.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 450px;
-  box-shadow: 0px 3px 8px #2a2a2a;
-}
-.frosty {
-  background: rgba(0, 0, 0, 0.5);
-}
-.frosty h1 {
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-family: 'Roboto Slab', serif;
-  font-family: 'Yatra One', cursive;
-  font-family: 'Rasa', serif;
-  font-weight: 100;
-  text-shadow: rgba(239,178,143,1) 2px 2px;
-}
-.frosty h2 {
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-family: 'Roboto Slab', serif;
-  font-family: 'Yatra One', cursive;
-  font-family: 'Rasa', serif;
-  font-weight: 200;
-  text-shadow: rgba(239,178,143,1) 2px 2px;
-}
-.btn {
-  border-radius: 0;
-}
-.feature {
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.booyah-box {
-  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: image_url("black_thread.png");
-  border: 2px solid #ccc;
-  border-color: #E14A16;
-  padding: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Yatra One', cursive;
+    font-weight: 300;
+    color: #E14A16;
 }
 
-.booyah-box h2, .booyah-box h1 {
-  margin: 10px;
+.hero {
+    background: image_url('hero_cinema4.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 450px;
+    box-shadow: 0px 3px 8px #2a2a2a;
 }
-nav .navbar-nav li a{
-  color: black !important;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-family: 'Roboto Slab', serif;
-  font-family: 'Yatra One', cursive;
-  font-weight: 100;
-} 
+
+.frosty {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.frosty h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Yatra One', cursive;
+    font-family: 'Rasa', serif;
+    font-weight: 100;
+    text-shadow: rgba(239, 178, 143, 1) 2px 2px;
+}
+
+.frosty h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Yatra One', cursive;
+    font-family: 'Rasa', serif;
+    font-weight: 200;
+    text-shadow: rgba(239, 178, 143, 1) 2px 2px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.feature {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.booyah-box {
+    -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+    -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+    box-shadow: 1px 1px 2px 0 #d0d0d0;
+    background: image_url("black_thread.png");
+    border: 2px solid #ccc;
+    border-color: #E14A16;
+    padding: 10px;
+}
+
+.booyah-box h2,
+.booyah-box h1 {
+    margin: 10px;
+}
+
+nav .navbar-nav li a {
+    color: black !important;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Yatra One', cursive;
+    font-weight: 100;
+}
 
 .help-block {
-  color: #ff3333;
-  background-color: #FFEEEE;
-  border-radius: 3px;
-  padding: 2px 8px 2px 8px;
-  margin: 10px;
+    color: #ff3333;
+    background-color: #FFEEEE;
+    border-radius: 3px;
+    padding: 2px 8px 2px 8px;
+    margin: 10px;
 }
+
 .clr {
-  clear: both;
+    clear: both;
+    margin-top: 10px;
 }
 
 .badge-default {
-  color: white;
+    color: white;
+}
+
+.lesson {
+    background-color: black;
+    margin-top: 10px;
+    height: 130px;
+}
+
+.section {
+    border: 1px solid;
+    border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+    padding: 20px;
+}
+
+.lesson a {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.lesson a b {
+    font-weight: 100;
+    font-size: 25px;
 }
