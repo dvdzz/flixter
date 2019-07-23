@@ -5,9 +5,11 @@ class LessonsController < ApplicationController
     def show
     end
 
+    private
+
     def require_authorized_for_current_lesson
       unless current_user.enrolled_in?(current_lesson.section.course)
-        redirect_to current_lesson.section.course, alert: 'You are not currently enrolled in this course, please enroll to view'
+        redirect_to current_lesson.section.course, alert: 'You are not currently enrolled in this course, please enroll to view the content'
       end
     end
   
