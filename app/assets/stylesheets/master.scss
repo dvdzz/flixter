@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 h1,
 h2,
 h3,
@@ -125,7 +126,7 @@ nav .navbar-nav li a {
 
 .section {
     border: 1px solid;
-    border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+    border-color: #E14A16 #E14A16 #E14A16 #E14A16;
     padding: 20px;
 }
 
@@ -139,4 +140,38 @@ nav .navbar-nav li a {
 .lesson a b {
     font-weight: 100;
     font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section-li {
+    border: 1px solid;
+    border-color: #E14A16 #E14A16 #E14A16 #E14A16;
+    padding: 20px;
+    margin: 20px;
+}
+
+ul .header {
+    font-size: 25px;
+}
+
+.lessons li {
+    background: black;
+    color: white;
+    margin: 10px;
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: 100;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.lessons li b {
+    font-size: 25px;
+    font-weight: 100px;
+}
+
+.lessons li p {
+    margin: 0;
 }

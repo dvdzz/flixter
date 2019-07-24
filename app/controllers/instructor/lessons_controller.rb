@@ -1,11 +1,11 @@
 class Instructor::LessonsController < ApplicationController
+  # Prevent CSRF attacks by raising an exception.
+  # For APIs, you may want to use :null_session instead.
+  protect_from_forgery prepend: true, with: :exception
+  
   before_action :authenticate_user!
-  before_action :require_authorized_for_current_section, only: [:new, :create]
+  before_action :require_authorized_for_current_section, only: [:create]
   before_action :require_authorized_for_current_lesson, only: [:update]
-
-  def new
-    @lesson = Lesson.new
-  end
 
   def create
     @lesson = current_section.lessons.create(lesson_params)
