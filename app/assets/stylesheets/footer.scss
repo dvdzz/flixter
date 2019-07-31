@@ -9,7 +9,7 @@ body {
 }
 
 #flex-content-container {
-    flex: 5;
+    flex: auto;
 }
 
 #footer {
@@ -38,7 +38,8 @@ body {
 
 .social-button {
     margin: 4px;
-    color: White
+    color: White;
+    flex: auto;
 }
 
 .social a:hover {
